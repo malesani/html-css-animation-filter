@@ -63,6 +63,39 @@
     border-radius: 50px;
     transform: scale(1.5);
 }
-   
+
+.ex-10-icon{
+    animation: rotation 2s infinite linear;
+    animation-direction: reverse;
+}
+@keyframes rotation{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: rotation-2 2s infinite linear;
+    animation-direction: reverse;
+}
+@keyframes rotation-2{
+    0%{
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(280deg);
+    }
+    100%{
+        transform: rotate(0deg) ;
+    }
+}
+
+
+
+
+
 
 
